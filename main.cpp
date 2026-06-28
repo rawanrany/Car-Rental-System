@@ -130,11 +130,11 @@ void signUp() {
     string id;
 
     do {
-        cout << "Enter your National ID (numbers only): ";
+        cout << "Enter your National ID (14 digits only): ";
         cin >> id;
-        if (!isAllDigits(id))
-            cout << "Invalid ID. Numbers only please.\n";
-    } while (!isAllDigits(id));
+        if (!isAllDigits(id) || id.length() != 14)
+            cout << "Invalid ID. Must be exactly 14 digits.\n";
+    } while (!isAllDigits(id) || id.length() != 14);
 
     for (int i = 0; i < customerCount; i++) {
         if (customers[i].nationalID == id) {
@@ -142,6 +142,7 @@ void signUp() {
             return;
         }
     }
+
 
     customers[customerCount].nationalID = id;
     cin.ignore(1000, '\n');
