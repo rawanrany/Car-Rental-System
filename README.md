@@ -12,14 +12,14 @@ A fully functional command-line application that simulates a real-world car rent
 
 | Feature | Description |
 |---|---|
-| 🔐 Sign Up / Login | Secure registration with 14-digit National ID validation |
-| 🔍 Search Cars | Search by brand, model, or color with partial matching |
-| 🚘 Rent a Car | Select and rent any available car |
-| ❌ Cancel Reservation | Release a previously rented car |
-| 💳 Payment | Supports Cash and Visa card payment flows |
-| ➕ Add / Update / Remove Cars | Full car inventory management |
-| 📋 List & Check Cars | View all cars or check a specific car's availability |
-| 💾 Persistent Storage | Data saved to and loaded from `.txt` files between sessions |
+|  Sign Up / Login | Secure registration with 14-digit National ID validation |
+|  Search Cars | Search by brand, model, or color with partial matching |
+|  Rent a Car | Select and rent any available car |
+|  Cancel Reservation | Release a previously rented car |
+|  Payment | Supports Cash and Visa card payment flows |
+|  Add / Update / Remove Cars | Full car inventory management |
+|  List & Check Cars | View all cars or check a specific car's availability |
+|  Persistent Storage | Data saved to and loaded from `.txt` files between sessions |
 
 
 Tech Stack
