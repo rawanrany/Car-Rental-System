@@ -1,21 +1,25 @@
 # Car Rental System
 > A console-based car rental management system built in C++ as a first-year university project.
 
-Overview
 
-A fully functional command-line application that simulates a real-world car rental service. Users can register, log in, browse available cars, rent them, and cancel reservations. all backed by persistent file storage so data survives between sessions.
+## Overview
 
-Features
+A fully functional command-line application that simulates a real-world car rental service. Users can register, log in, browse available cars, rent them, and cancel reservations — all backed by persistent file storage so data survives between sessions.
 
-  | Feature |                                    | Description |
-|  Sign Up / Login            | Secure registration with 14-digit National ID validation |
-|  Search Cars                | Search by brand, model, or color with partial matching |
-|  Rent a Car                 | Select and rent any available car |
-|  Cancel Reservation         | Release a previously rented car |
-|  Payment                    | Supports Cash and Visa card payment flows |
-|  Add / Update / Remove Cars | Full car inventory management |
-|  List & Check Cars          | View all cars or check a specific car's availability |
-|  Persistent Storage         | Data saved to and loaded from `.txt` files between sessions |
+---
+
+## Features
+
+| Feature | Description |
+|---|---|
+| 🔐 Sign Up / Login | Secure registration with 14-digit National ID validation |
+| 🔍 Search Cars | Search by brand, model, or color with partial matching |
+| 🚘 Rent a Car | Select and rent any available car |
+| ❌ Cancel Reservation | Release a previously rented car |
+| 💳 Payment | Supports Cash and Visa card payment flows |
+| ➕ Add / Update / Remove Cars | Full car inventory management |
+| 📋 List & Check Cars | View all cars or check a specific car's availability |
+| 💾 Persistent Storage | Data saved to and loaded from `.txt` files between sessions |
 
 
 Tech Stack
